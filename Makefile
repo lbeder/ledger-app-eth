@@ -312,3 +312,9 @@ dep/%.d: %.c Makefile
 
 listvariants:
 	@echo VARIANTS CHAIN ethereum ethereum_classic expanse poa  artis_sigma1 artis_tau1 rsk rsk_testnet ubiq wanchain kusd pirl akroma atheios callisto ethersocial ether1 gochain musicoin ethergem mix ellaism reosc hpb tomochain tobalaba dexon volta ewc webchain thundercore
+
+listloadparams:
+	@echo ${APP_LOAD_PARAMS}
+
+listdeleteparams:
+	@echo ${COMMON_DELETE_PARAMS}
