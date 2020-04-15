@@ -291,8 +291,8 @@ ifeq ($(TARGET_NAME),TARGET_NANOS)
 
 	ifneq "$(wildcard $(BOLOS_SDK)/lib_ux/src/ux_flow_engine.c)" ""
 		SDK_SOURCE_PATH  += lib_ux
-		DEFINES		       += HAVE_UX_FLOW		
-		DEFINES += HAVE_WALLET_ID_SDK 
+		DEFINES		       += HAVE_UX_FLOW
+		DEFINES += HAVE_WALLET_ID_SDK
 	endif
 
 endif
