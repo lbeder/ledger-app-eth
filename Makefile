@@ -172,6 +172,7 @@ endif
 endif
 
 APP_LOAD_PARAMS += $(APP_LOAD_FLAGS) --path "44'/1'"
+
 DEFINES += $(DEFINES_LIB)
 
 #prepare hsm generation
