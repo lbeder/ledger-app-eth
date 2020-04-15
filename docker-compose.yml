@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ledger:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    volumes:
+      - .:/home/ledger-app-eth
